@@ -1,0 +1,132 @@
+{
+  "_help": "What to look for. Title tracks are regular expressions matched against lower-cased job titles. A job is queued when it matches a track, isn't excluded, and its location fits. The fit check then decides with min_fit (0-10). See references/setup.md.",
+  "tracks": [
+    {
+      "name": "core",
+      "priority": 1,
+      "min_fit": 6,
+      "title_regex": "\\b(ux|user|design|product|experience|mixed[- ]methods?|qualitative|quantitative)\\b.*research|research(er)?\\b.*\\b(ux|user experience)\\b|research ?ops|research operations"
+    },
+    {
+      "name": "adjacent-design",
+      "priority": 3,
+      "min_fit": 7,
+      "title_regex": "\\b(ux|ui|product|experience|interaction|service)\\b.*designer|design strategist|conversation(al)? designer"
+    },
+    {
+      "name": "adjacent-pm",
+      "priority": 4,
+      "min_fit": 8,
+      "title_regex": "(product|program) manager",
+      "title_must_also_match": "(research|ux|user experience|design|insight)"
+    }
+  ],
+  "exclude_title_regex": "\\b(intern|internship|new grad|junior|engineers?|attorney|counsel|nurse|director|vice president|vp|head of|chief)\\b",
+  "locations": {
+    "onsite_keywords": [
+      "austin",
+      "round rock",
+      "cedar park"
+    ],
+    "remote": true,
+    "remote_country_keywords": [
+      "united states",
+      "usa",
+      "u.s.",
+      " us",
+      "us-",
+      "(us)",
+      "us remote",
+      "remote - us",
+      "north america"
+    ],
+    "remote_exclude_keywords": [
+      "india",
+      "uk",
+      "united kingdom",
+      "london",
+      "germany",
+      "canada",
+      "mexico",
+      "brazil",
+      "poland",
+      "spain",
+      "singapore",
+      "australia",
+      "emea",
+      "apac",
+      "latam",
+      "europe",
+      "israel",
+      "ireland",
+      "netherlands",
+      "japan",
+      "france",
+      "philippines"
+    ],
+    "scan_location_allow": [
+      "United States",
+      "USA",
+      "US-Remote",
+      "Remote - US"
+    ],
+    "scan_location_block": [
+      "India",
+      "United Kingdom",
+      "London",
+      "Germany",
+      "Canada",
+      "Singapore",
+      "Australia",
+      "EMEA",
+      "APAC",
+      "LATAM"
+    ]
+  },
+  "aggregator_blocklist": [
+    "jobgether",
+    "bjakcareer",
+    "crossover",
+    "remotehunter",
+    "jobot",
+    "dice",
+    "hired"
+  ],
+  "scan_keywords": [
+    "UX Research",
+    "User Research",
+    "UX Researcher",
+    "User Researcher",
+    "Design Research",
+    "Research Operations",
+    "Product Designer",
+    "UX Designer",
+    "Service Designer",
+    "Conversation Designer",
+    "Program Manager",
+    "Product Manager"
+  ],
+  "scan_negative_keywords": [
+    "word:Intern",
+    "Internship",
+    "New Grad",
+    "Junior",
+    "Software Engineer",
+    "Data Scientist",
+    "Research Scientist"
+  ],
+  "workday_queries": [
+    "UX Research",
+    "Product Designer",
+    "Research Operations"
+  ],
+  "indeed_queries": [
+    "UX Researcher",
+    "User Researcher"
+  ],
+  "indeed_locations": [
+    "Austin, TX",
+    "remote"
+  ],
+  "fit_rules": "Core track: UX / user / mixed-methods research roles from mid-level to principal.\nAdjacent tracks (designer, research-heavy product/program manager) only when the role leans on research, strategy or the candidate's domains.\nSkip (hard blockers): hybrid/onsite outside the listed onsite cities; remote roles whose required core hours don't fit the candidate's time zone; citizenship or security clearance required; PhD required; internships or entry level; Director/VP/Head-of roles; pure visual/brand/motion design; engineering or data-science roles; roles centered on a skill the profile lacks."
+}

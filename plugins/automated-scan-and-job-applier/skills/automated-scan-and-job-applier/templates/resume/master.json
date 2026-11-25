@@ -1,0 +1,83 @@
+{
+  "_note": "EXAMPLE master resume content (Alex Example is fictional). Replace with the person's approved resume. **bold** marks emphasis. Every job needs an 'id' that matches resume/bank.json.",
+  "name": "Alex Example",
+  "title": "Senior UX Researcher",
+  "contact": [
+    "Austin, TX",
+    "(555) 010-0000",
+    "you@example.com|mailto:you@example.com",
+    "www.example.com|https://www.example.com",
+    "linkedin.com/in/your-handle/|https://www.linkedin.com/in/your-handle/"
+  ],
+  "headline": "Mixed-Methods Research for Regulated Products",
+  "summary": "Senior UX Researcher with **8+ years of experience** leading **mixed-methods research** for banking and healthcare products. Plans and runs generative and evaluative studies that shape **product strategy and roadmaps**, and partners closely with Product, Design and Engineering. Builds research operations that let teams move faster, and mentors junior researchers.",
+  "experience": [
+    {
+      "id": "northwind",
+      "title": "Senior UX Researcher",
+      "company": "Northwind Bank",
+      "dates": "Mar 2021 – Present",
+      "location": "Austin, TX",
+      "bullets": [
+        "Led **25+ mixed-methods studies** (interviews, usability tests, surveys) across mobile banking and lending products.",
+        "Redesigned account onboarding from research findings, **raising completed sign-ups by 9%**.",
+        "Built a **research repository and intake process** used by four product teams.",
+        "Partnered with **Product, Design and Engineering leads** to turn insights into roadmap decisions.",
+        "Mentored **three junior researchers** on study design and synthesis."
+      ]
+    },
+    {
+      "id": "contoso",
+      "title": "UX Researcher",
+      "company": "Contoso Health",
+      "dates": "Jun 2018 – Feb 2021",
+      "location": "Remote",
+      "bullets": [
+        "Conducted **generative research with clinicians and patients** to shape a telehealth scheduling product.",
+        "Ran **moderated usability testing** on patient-portal flows and prioritized fixes with the product team.",
+        "Synthesized findings into **journey maps and personas** adopted across the design team."
+      ]
+    },
+    {
+      "id": "fabrikam",
+      "title": "Design Research Intern",
+      "company": "Fabrikam Studio",
+      "dates": "Jun 2017 – Dec 2017",
+      "location": "Austin, TX",
+      "bullets": [
+        "Supported **field studies and interviews** for a retail client's in-store app.",
+        "Created **affinity maps and research readouts** for client stakeholders."
+      ]
+    }
+  ],
+  "skills": [
+    [
+      "Research Methods",
+      "Mixed-Methods Research, In-Depth Interviews, Usability Testing, Survey Design, Card Sorting & Tree Testing, Contextual Inquiry"
+    ],
+    [
+      "Strategy & Synthesis",
+      "Journey Mapping, Personas, Insight Synthesis, Research Roadmaps, Executive Storytelling"
+    ],
+    [
+      "Domains",
+      "Banking & Lending, Healthcare, Telehealth"
+    ],
+    [
+      "Collaboration",
+      "Cross-Functional Partnership, Workshop Facilitation, Research Operations, Mentorship"
+    ],
+    [
+      "Tools",
+      "Figma, Dovetail, UserTesting, Qualtrics, Miro, Jira"
+    ]
+  ],
+  "education": [
+    [
+      "Example State University",
+      "Master of Science in Human-Computer Interaction",
+      "May 2016"
+    ]
+  ],
+  "certifications": []
+}

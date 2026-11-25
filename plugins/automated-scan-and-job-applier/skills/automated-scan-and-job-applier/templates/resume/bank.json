@@ -1,0 +1,132 @@
+{
+  "_help": "The approved bullet bank. Tailoring may choose, order and lightly reword these bullets; it can never add facts. 'master': true marks the default set. 'group' marks bullets that share a metric: at most one per group. Job keys must match the 'id' of each job in master.json. forbidden_phrases are regexes that must never appear.",
+  "jobs": {
+    "northwind": {
+      "min": 4,
+      "max": 6,
+      "bullets": [
+        {
+          "id": "nw1",
+          "master": true,
+          "text": "Led **25+ mixed-methods studies** (interviews, usability tests, surveys) across mobile banking and lending products."
+        },
+        {
+          "id": "nw2",
+          "master": true,
+          "group": "nw-onboarding",
+          "text": "Redesigned account onboarding from research findings, **raising completed sign-ups by 9%**."
+        },
+        {
+          "id": "nw3",
+          "master": true,
+          "text": "Built a **research repository and intake process** used by four product teams."
+        },
+        {
+          "id": "nw4",
+          "master": true,
+          "text": "Partnered with **Product, Design and Engineering leads** to turn insights into roadmap decisions."
+        },
+        {
+          "id": "nw5",
+          "master": true,
+          "text": "Mentored **three junior researchers** on study design and synthesis."
+        },
+        {
+          "id": "nw6",
+          "text": "Ran **card sorts and tree tests** to simplify navigation in the mobile app."
+        }
+      ]
+    },
+    "contoso": {
+      "min": 3,
+      "max": 5,
+      "bullets": [
+        {
+          "id": "co1",
+          "master": true,
+          "text": "Conducted **generative research with clinicians and patients** to shape a telehealth scheduling product."
+        },
+        {
+          "id": "co2",
+          "master": true,
+          "text": "Ran **moderated usability testing** on patient-portal flows and prioritized fixes with the product team."
+        },
+        {
+          "id": "co3",
+          "master": true,
+          "text": "Synthesized findings into **journey maps and personas** adopted across the design team."
+        },
+        {
+          "id": "co4",
+          "text": "Designed and analyzed **surveys of 1,200 patients** to size unmet needs."
+        }
+      ]
+    },
+    "fabrikam": {
+      "min": 2,
+      "max": 3,
+      "bullets": [
+        {
+          "id": "fa1",
+          "master": true,
+          "text": "Supported **field studies and interviews** for a retail client's in-store app."
+        },
+        {
+          "id": "fa2",
+          "master": true,
+          "text": "Created **affinity maps and research readouts** for client stakeholders."
+        }
+      ]
+    }
+  },
+  "order": [
+    "northwind",
+    "contoso",
+    "fabrikam"
+  ],
+  "titles": [
+    "Senior UX Researcher",
+    "UX Researcher",
+    "Senior Mixed-Methods Researcher",
+    "UX Researcher & Designer"
+  ],
+  "skill_categories": [
+    "Research Methods",
+    "Strategy & Synthesis",
+    "Domains",
+    "Collaboration",
+    "Tools"
+  ],
+  "skills_vocab": [
+    "Mixed-Methods Research",
+    "In-Depth Interviews",
+    "Usability Testing",
+    "Survey Design",
+    "Card Sorting & Tree Testing",
+    "Contextual Inquiry",
+    "Field Studies",
+    "Concept Testing",
+    "Journey Mapping",
+    "Personas",
+    "Insight Synthesis",
+    "Research Roadmaps",
+    "Executive Storytelling",
+    "Banking & Lending",
+    "Healthcare",
+    "Telehealth",
+    "Retail",
+    "Cross-Functional Partnership",
+    "Workshop Facilitation",
+    "Research Operations",
+    "Mentorship",
+    "Figma",
+    "Dovetail",
+    "UserTesting",
+    "Qualtrics",
+    "Miro",
+    "Jira"
+  ],
+  "forbidden_phrases": [
+    "\\bPhD\\b"
+  ]
+}

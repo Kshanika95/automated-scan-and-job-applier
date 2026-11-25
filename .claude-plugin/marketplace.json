@@ -1,0 +1,18 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "job-applier",
+  "description": "Automated Scan and Job Applier: a Claude Code plugin that keeps a job search running with honest, tailored applications.",
+  "owner": {
+    "name": "Kshanika95"
+  },
+  "plugins": [
+    {
+      "name": "automated-scan-and-job-applier",
+      "description": "Hourly job scans, fit checks, truthful tailored resumes, form filling and guard-railed submission, with daily email reports.",
+      "author": { "name": "Kshanika95" },
+      "source": "./plugins/automated-scan-and-job-applier",
+      "category": "productivity",
+      "homepage": "https://github.com/Kshanika95/automated-scan-and-job-applier"
+    }
+  ]
+}

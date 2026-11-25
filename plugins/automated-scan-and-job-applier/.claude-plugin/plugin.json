@@ -1,0 +1,10 @@
+{
+  "name": "automated-scan-and-job-applier",
+  "description": "A guard-railed job-search autopilot for Claude Code: hourly scans of Greenhouse, Lever, Ashby and Workday, fit checks, truthful tailored resumes, form filling and submission where sites allow, daily email reports, and one-by-one handoff emails for anything that needs a human.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Kshanika95"
+  },
+  "license": "MIT",
+  "keywords": ["jobs", "job-search", "resume", "auto-apply", "greenhouse", "ashby", "lever", "workday", "career"]
+}

@@ -1,0 +1,10 @@
+node_modules/
+__pycache__/
+*.pyc
+.DS_Store
+# never commit a personal workspace
+state/
+logs/
+applications/
+pylib/
+career-ops/
